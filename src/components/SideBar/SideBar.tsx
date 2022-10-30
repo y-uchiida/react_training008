@@ -17,7 +17,7 @@ import Grid from '@mui/material/Unstable_Grid2/Grid2';
 const style: SystemProps<Theme> = {
 	minHeight: '100vh',
 	borderRight: `1px solid ${palette.primary.light}`,
-	mt: 2,
+	pt: 1,
 	paddingX: 2
 }
 
@@ -54,7 +54,7 @@ const SideBar = () => {
 				</Grid>
 			</Grid>
 
-			<Button variant='contained' size='large' sx={{ mt: 3, fontWeight: 900, width: '96%' }}>ツイートする</Button>
+			<Button variant='contained' size='large' sx={{ mt: 3, fontWeight: 900, width: '96%' }} disableElevation>ツイートする</Button>
 		</Box >
 	)
 }
