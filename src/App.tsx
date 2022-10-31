@@ -1,8 +1,8 @@
 import SideBar from './components/SideBar/SideBar'
 import TimeLine from './components/TimeLine/TimeLine'
-import Widget from './components/Widget/Widget'
+import Widgets from './components/Widgets/Widgets'
 import Grid from '@mui/material/Unstable_Grid2';
-import { Container, minHeight } from '@mui/system';
+import { Container } from '@mui/system';
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
             <TimeLine />
           </Grid>
           <Grid xs={3}>
-            <Widget />
+            <Widgets />
           </Grid>
         </Grid>
       </Container>
