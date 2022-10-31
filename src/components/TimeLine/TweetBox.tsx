@@ -38,7 +38,7 @@ const postTweet = async (
 		authorName: 'firebase post',
 		verified: false,
 		content: tweetContent,
-		imageUrl: tweetImageUrl,
+		imageUrl: [tweetImageUrl], /* 文字列で受け取る仕様にしてるので、いったん配列化して保存する */
 		createdTime: timeStamp,
 		updatedTime: timeStamp
 	});

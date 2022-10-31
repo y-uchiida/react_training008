@@ -7,5 +7,6 @@ export default interface PostContent {
 	verified?: boolean
 	content: string
 	imageUrl?: string[] | null,
-	createdTime: FieldValue
+	createdTime: FieldValue,
+	updatedTime: FieldValue
 }
